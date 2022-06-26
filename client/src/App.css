@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: black;
+  color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+ .title{
+  font-size: 4vw;
+  font-weight: 500;
+  margin-bottom: 0vh;
+ }
+ 
+ .subtitle{
+  font-size: 1.2vw;
+  font-weight: 500;
+ }
+
+ .choice{
+  font-size: 2.5vw;
+  /* font-weight: bold; */
+ }
+
+.figure_image{
+  margin-bottom: 0;
+}
+
+ /* .figure_image:hover{
+  border: solid red 3px;
+ } */
+
+ #visual_choice{
+  font-size: 1.2vw;
+ }
+
+ #audio_choice{
+  font-size: 1.2vw;
+}
+
+#App_row{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vh;
+}
+
+#description_row{
+  margin-bottom: 50px;
+}
+
+#visual_row{
+  margin-bottom: 20px;
+}
+
+#audio_row{
+  margin-bottom: 20px;
+}
+
+#button_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0vh 5vh 0vh;
+}
+
+#mint_button{
+  color: black;
+  background-color: white !important;
+  border-color: black;
+  width: 12em;
+  border-radius: 0 !important;
+}
+
+#UI_row{
+  display: flex;
+  justify-content: center;
+}
+
+#deposit_button{
+  color: black;
+  background-color: white !important;
+  border-color: black;
+  width: 12em;
+  border-radius: 0 !important;
+}
+
+#deposit_row{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+#deposit_col{
+  display: flex;
+  width: 12em;
+  padding: 0;
+}
+
+#deposit_form{
+  padding: 0;
+  width: 12em;
+  margin: 0;
+  /* border-radius: 0 !important; */
+}
+
+#withdraw_button{
+  color: white;
+  background-color: black !important;
+  border-color: white;
+  width: 12em;
+  border-radius: 0 !important;
+}
+
+#withdrawal_row{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+#withdrawal_col{
+  display: flex;
+  width: 12em;
+  padding: 0;
+}
+
+#withdrawal_form{
+  padding: 0;
+  width: 12em;
+  margin: 0;
+}
+
+#connect_button{
+  background-color: black !important;
+  width: 12em;
+  border: 2px solid #FFFFFF !important;
+  border-radius: 0 !important;
+}
+
+#wl_badge{
+  width: 16em !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important;
+}
+
+#claim_badge{
+  width: 16em !important;
+  border-radius: 0 !important;
+  font-weight: 400 !important
+}
+
+#connexion_status{
+  margin-top: 5vh;
+  border-radius: 0 !important;
+}
+
+#web3_alert{
+  border-radius: 0 !important;
+  width: 12em;
+  color: white;
+  background-color: black !important;
+  border: 2px solid #FFFFFF !important;
+}
+
+.etherscan_link{
+  color: rgb(119, 119, 119);
+  /* text-decoration: none; */
+}
+
+#connexion_info{
+  color: rgb(119, 119, 119);
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 650px) {
+  #mint_button{
+    /* width: 8em; */
+  }
+
+} 

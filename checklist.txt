@@ -1,0 +1,23 @@
+1/ All contracts: add admin
+2/ ShootingStar: 
+    a) add BH as admin // Done
+    c) add URI
+    d) mint
+
+3/  BH:
+    a) setShootingStar address // Done
+    b) register dreamwithin: address: 0x57a567A3D179904fDD97476404F077C447193212, volume: 98 ; // Done
+    c) setLiveContract: 0x57a567A3D179904fDD97476404F077C447193212 // Done
+    d) airdrop tokens: see snapshot // Done
+    e) register blackhole // Done
+    f) setLiveContract: //  Done
+
+3/ Blackhole:
+    a) setSigner //  Done
+    b) setBHAddress // Done
+    c) updateURIs // Done
+    d) toggleMintState
+
+4/ Webiste:
+    a) create the WL // Done
+    b) upload the WL // Done
